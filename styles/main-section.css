@@ -1,0 +1,101 @@
+section{
+  margin-top: 130px;
+}
+/* first section start */
+.first-section .fs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fs-1 .fs-h{
+font-weight: 700;
+font-size: 40px;
+color: #151414;
+padding: 10px 170px;
+}
+.fs-1 .fs-p{
+font-weight: 400;
+font-size: 16px;
+color: #444343;
+padding: 10px 170px;
+}
+.fs-1 .fs-p1{
+  font-weight: 400;
+  font-size: 14px;
+  color: #444343;
+  padding: 10px 170px;
+}
+.fs-1 .fs-p1 i{
+  color: lightsalmon;
+  margin-right: 10px;
+}
+/* first section end */
+/* second section start */
+.second-section .ss-h{
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: #151414;
+}
+.second-section .ss{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ 
+  margin-bottom:50px ;
+
+}
+ .box {
+margin: 20px 40px;
+
+}
+.box img{
+  margin: 20px 0;
+}
+.box h4{
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 28px;
+  color: #151414;
+}
+.box h6{
+  font-weight: 500;
+  font-size: 25px;
+  columns: #737373;
+}
+.box h4 span{
+  font-size: 35px;
+  color: yellow;
+}
+/* second section end */
+/* third section start */
+.third-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ts{
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 220, 208);
+  border-radius: 6px;
+}
+.ts h1{
+  text-align: center;
+  font-size: 30px;
+  color: #151414;
+  margin-top: 30px;
+}
+.ts-hr{
+  width: 300px;
+  margin: 10px 0;
+  background-color: lightcoral;
+  border: 1px solid lightcoral;
+}
+.ts p{
+  
+}
+/* third section end */

@@ -70,19 +70,24 @@ margin: 20px 40px;
 }
 /* second section end */
 /* third section start */
-.third-section{
+
+.ts{
+ 
   display: flex;
   flex-direction: column;
   align-items: center;
+ 
 }
-.ts{
+.ts1{
   width: 900px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: rgb(255, 220, 208);
-  border-radius: 6px;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
 }
+
 .ts h1{
   text-align: center;
   font-size: 30px;
@@ -95,7 +100,111 @@ margin: 20px 40px;
   background-color: lightcoral;
   border: 1px solid lightcoral;
 }
-.ts p{
+.ts2{
+  display: flex;
+  flex-direction: column;
   
+  width: 900px; 
+  background-color: rgb(255, 220, 208);
+
+}
+.ts2 p,h2{
+  padding: 10px 70px;
+}
+.ts2 p{
+  color: #151414;
+  font-weight: 700;
+  font-size: 16px;
+}
+.ts2 p .sp1{
+  font-weight: bold;
+  font-size: 20px;
+  color: orangered;
+}
+.ts2 p .sp2{
+font-weight: bold;
+color: #444343;
+font-size: 35px;
+}
+
+.ts3{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 900px; 
+  background-color: rgb(255, 220, 208);
+ 
+}
+.ts4{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.ts4 hr{
+  width: 100px;
+  border: 2px solid lightpink;
+  background-color: lightpink;
+  border-radius: 3px ;
+}
+.ts5{
+  display: flex;
+  justify-content: center;
+  width: 900px; 
+
+  background-color: rgb(255, 220, 208);
+border-bottom-right-radius: 6px;
+border-bottom-left-radius: 6px;
+}
+.ts5 a{
+  text-align: center;
+  width: 200px;
+  margin: 25px 0;
+  padding: 20px 20px;
+  text-decoration: none;
+  color: #000000;
+  background-color: rgb(245, 88, 119);
+  border: none;
+  border-radius: 5px;
 }
 /* third section end */
+/* fourth section start */
+.fourth-section{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 130px;
+}
+.frs{
+  width: 1000px;
+height: 300px;
+  background-image: url('../images/watch.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.frs1{
+ 
+margin-top: 70px;
+margin-right: 200px;
+  
+}
+.h3{
+ 
+  font-weight: 700;
+  font-size: 40px;
+  padding: 0 130px;
+}
+.frs button{
+  margin:20px 0 0 130px;
+  padding: 15px 25px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: rgb(255, 255, 255);
+  color: #F15B22;
+  border: none;
+  border-radius: 5px;
+}
+/* fourth section end */

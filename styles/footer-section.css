@@ -14,7 +14,7 @@ footer{
 }
 .one{
   margin-top: 100px;
-  margin-left: 100px;
+  margin-left: 220px;
 }
 .one h4{
   color: #ffffff;
@@ -26,7 +26,7 @@ footer{
   margin-right: 250px;
   color: #F8F8F8 ;
   font-size: 16px;
-  padding:20px 200px 20px 0;
+  padding:20px 15px 20px 0;
 }
 #o-p{
   margin: 15px 0;
@@ -40,7 +40,7 @@ footer{
   flex-direction: column;
   gap: 20px;
   justify-content: center;
-  margin-right: 100px;
+  margin-right: 150px;
 }
 .two h5{
   color: #F8F8F8;
